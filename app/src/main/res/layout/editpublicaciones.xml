@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PublicacionesEdit"
+    android:background="@drawable/peakpx">
+
+    <RelativeLayout
+        android:layout_width="365dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            />
+        <TextView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text=""
+            android:textSize="22sp"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:gravity="left"/>
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/descipcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripcion"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/id"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+        <EditText
+            android:id="@+id/idemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Emprendimiento_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/descipcion"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="Actualizar"
+            android:layout_below="@+id/idemp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/eliminar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idemp"
+            android:layout_gravity="center"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/save"
+            android:background="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:text="Eliminar"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

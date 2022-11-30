@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="399dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/boton_superior">
+
+
+
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Nombre"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"/>
+
+        <TextView
+            android:id="@+id/txtApellidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/txtNombre"
+            android:layout_toRightOf="@+id/txtNombre"
+            android:text="Apellidos"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"/>
+
+        <TextView
+            android:id="@+id/Documento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Cc:"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/txtNombre"
+            android:fontFamily="@font/light_italic"/>
+
+        <TextView
+            android:id="@+id/txtNumero_documento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Numero documento"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/Documento"
+            android:layout_toRightOf="@+id/Documento"
+            android:layout_below="@+id/txtNombre"
+            android:fontFamily="@font/light_italic"/>
+
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Email:"
+
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/txtNumero_documento"
+            android:fontFamily="@font/light_italic"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_below="@+id/txtNumero_documento"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/Email"
+            android:layout_toRightOf="@+id/Email"
+            android:text="@string/Email"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/regular"/>
+
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Password:"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/Email"
+            android:fontFamily="@font/light_italic"/>
+
+        <TextView
+            android:id="@+id/txtPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/txtEmail"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/Password"
+            android:layout_toRightOf="@+id/Password"
+            android:text="@string/Password"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/regular"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

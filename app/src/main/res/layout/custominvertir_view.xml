@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="399dp"
+        android:layout_height="match_parent"
+        android:background="#83EDE8E8">
+
+
+
+        <TextView
+            android:id="@+id/txtPropuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Propuesta"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bold"
+            />
+
+        <TextView
+            android:id="@+id/Usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPropuesta"
+            android:layout_marginStart="210sp"
+            android:layout_marginLeft="10dp"
+            android:text="Usuario:"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/thin_italic"
+            />
+
+        <TextView
+            android:id="@+id/txtUser_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPropuesta"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/Usuario"
+            android:layout_toRightOf="@+id/Usuario"
+            android:fontFamily="@font/thin_italic"
+            android:text="@string/User_id"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/Emprendimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtUser_id"
+            android:layout_marginStart="210sp"
+            android:layout_marginLeft="10dp"
+            android:text="Emprendimiento:"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/thin_italic" />
+
+        <TextView
+            android:id="@+id/txtEmprendimiento_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtUser_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Emprendimiento_id"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/thin_italic"
+            android:layout_toEndOf="@+id/Emprendimiento"
+            android:layout_toRightOf="@+id/Emprendimiento"/>
+
+<!--        android:layout_toEndOf="@+id/imageNt"-->
+<!--        android:layout_toRightOf="@+id/imageNt"-->
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

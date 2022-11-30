@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Bizsett</string>
+    <string name="title_activity_homemenu">Homemenu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_click">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Buen Día</string>
+    <string name="navigation_drawer_close">Buena Tarde</string>
+    <string name="perfil">Perfil</string>
+    <string name="emprendimiento">Emprendimiento</string>
+    <string name="chat">chat</string>
+    <string name="options">Options</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="log_out">Cerrar sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo">Titulo</string>
+    <string name="fecha">Fecha</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="Propuesta">Propuesta</string>
+    <string name="User_id">User_id</string>
+    <string name="Emprendimiento_id">Emprendimiento_id</string>
+    <string name="Evidencia">Evidencia</string>
+    <string name="MensajeTrabajo">MensajeTrabajo</string>
+    <string name="Categoria">Categoria</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Direccion">Direccion</string>
+    <string name="dash">dash</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "750147270703",
+    "project_id": "splashscreenapp-d8adb",
+    "storage_bucket": "splashscreenapp-d8adb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750147270703:android:518c09e58a34316e7e2eda",
+        "android_client_info": {
+          "package_name": "com.sena.splashscreenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750147270703-sauqlsb4p920gataiucero2gksgmo6fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt-jof9n-KKJv7Zeo5wivXx91ZXuLJ3aE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750147270703-sauqlsb4p920gataiucero2gksgmo6fe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

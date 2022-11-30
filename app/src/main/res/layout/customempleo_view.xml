@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="399dp"
+        android:layout_height="match_parent">
+        >
+
+        <TextView
+            android:id="@+id/MensajeTrabajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Mensaje:"
+
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/light_italic"/>
+
+        <TextView
+            android:id="@+id/txtMensajeTrabajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/MensajeTrabajo"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/MensajeTrabajo"
+            android:layout_toRightOf="@+id/MensajeTrabajo"
+            android:fontFamily="@font/light_italic"/>
+
+        <TextView
+            android:id="@+id/Evidencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/MensajeTrabajo"
+            android:text="Evidencia:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/light_italic"/>
+
+        <TextView
+            android:id="@+id/txtEvidencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Evidencia"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txtMensajeTrabajo"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/Evidencia"
+            android:layout_toRightOf="@+id/Evidencia"
+            android:fontFamily="@font/light_italic"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/Userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="User:"
+            android:layout_below="@id/Evidencia"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/light_italic"/>
+
+        <TextView
+            android:id="@+id/txtUser_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/User_id"
+            android:textSize="17dp"
+            android:layout_below="@+id/txtEvidencia"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/Userid"
+            android:layout_toRightOf="@+id/Userid"
+            android:fontFamily="@font/light_italic"/>
+
+
+        <TextView
+            android:id="@+id/Emprendimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Emprendimiento:"
+            android:layout_below="@id/Userid"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/light_italic"/>
+
+        <TextView
+            android:id="@+id/txtEmprendimiento_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Emprendimiento_id"
+            android:textSize="17dp"
+            android:layout_below="@+id/txtUser_id"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/Emprendimiento"
+            android:layout_toRightOf="@+id/Emprendimiento"
+            android:fontFamily="@font/light_italic"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

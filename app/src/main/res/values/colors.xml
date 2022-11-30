@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#D2787575</color>
+    <color name="purple_500">#80000000</color> Botones y texto
+    <color name="purple_700">#000000</color> Barra navegacion
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color> texto
+    <color name="white">#FFFFFFFF</color>
+</resources>
